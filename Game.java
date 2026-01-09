@@ -6,9 +6,6 @@
 package com.mycompany.kidsgame;
 import java.util.Scanner;
 
-
-
-
 //random method exists in the Scanner class
 
 public class Game {
@@ -72,14 +69,8 @@ public class Game {
 
         //return true or false based on the user's answer
         if(actualAnswer == userAnswer){
-
-
-
-
             ++score; //there is one score variable in the entire class
             return true; 
-
-
 
         }else{
 
@@ -87,18 +78,6 @@ public class Game {
         }
         
     }
-    
-
-
-
-
-
-
-
-
-
-
-
 
     public boolean generateSubQuestions(){
         
@@ -116,31 +95,12 @@ public class Game {
         //return true or false based on the user's answer
         if(actualAnswer == userAnswer){
 
-
-
-
             ++score; //there is one score variable in the entire class
             return true; 
-
-
-
         }else{
-
             return false; 
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
 
     public boolean generateMulQuestions(){
 
@@ -173,19 +133,6 @@ public class Game {
         //input.close();
     }
    
-
-
-
-
-
-
-
-
-
-
-
-
-
 public boolean generateDivQuestions(){
         // todo: check that the inputted divisor is in the range of 1 to 10
         int num1 = (int) (Math.random() * 10); //no restriction on the dividend
@@ -237,16 +184,8 @@ public boolean generateDivQuestions(){
         System.out.println("Your Score:"+score+"\n");
         System.out.println("------Summary-----\n"+summary);
     }
-
     
 }
-
-
-
-
-
-
-
 
 class Player{
 
